@@ -1,0 +1,419 @@
+/*
+ Theme Name:   Smart Output
+ Theme URI:    http://elegantthemes.com/
+ Description:  Divi Child Theme
+ Author:       Firetoss
+ Author URI:   http://firetoss.com/
+ Template:     Divi
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: responsive-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+ Text Domain:  divi-child-theme
+*/
+
+p {
+
+	font-family : Open Sans;
+  	font-size : 20px;
+  	line-height : 32.8px;
+	font-weight: 600;
+}
+
+.main_title {
+  font-family : Open Sans;
+  font-size : 72px;
+  color : #1F1F59;
+  color : rgb(31, 31, 89);
+  font-weight: 400;
+	margin-bottom: 0;
+}
+
+.orange_subheader {
+
+	font-family : Open Sans;
+  	font-size : 36px !important;
+  	color : #FFFFFF;
+  	color : rgb(255, 255, 255);
+}
+
+.orange_header {
+
+	font-family : Open Sans;
+  	font-size : 45px !important;
+	font-weight: 400;
+  	color : #1F1F59 !important;
+  	color : rgb(31, 31, 89);
+}
+
+.intro_title {
+	
+	font-family : Open Sans;
+  	font-size : 72px;
+  	color : #F9A01B;
+ 	 color : rgb(249, 160, 27);
+	font-weight: 600;
+
+}
+
+
+h2 {
+
+  font-family : Open Sans;
+  font-size : 36px;
+  color : #1F1F59;
+  color : rgb(31, 31, 89);
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+
+	text-align: right;
+}
+
+.center {
+	
+	text-align: center;
+}
+
+.white {
+
+	color: white !important;
+}
+
+/* top slidder stuff*/
+
+.et_pb_slide.et_pb_bg_layout_dark.et_pb_media_alignment_center.et_pb_slide_0.et-pb-active-slide {
+    height: 600px;
+}
+
+/* =====================top b ========================*/
+
+#feat_boxes {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background : #231F20 !important;
+}
+
+img.alignnone {
+    max-width: 100%;
+    height: 100%;
+}
+
+.flare_feat {
+
+	font-family : Open Sans !important;
+  	font-size : 23px !important;
+  	color : #FFFFFF !important;
+  	color : rgb(255, 255, 255);
+
+}
+
+.flair_orange {
+
+	 font-family : Open Sans;
+ 	 font-size : 31px !important;
+ 	 color : #F9A01B !important ;
+ 	 color : rgb(249, 160, 27) !important;
+	font-weight: 600;
+}
+
+.top_b_copy {
+    padding-left: 5%;
+}
+
+.feat_link {
+	-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+}
+
+.feat_link:hover {
+
+	color: black;
+}
+
+div#services {
+    padding: 0;
+}
+/* =================testimonials ===================*/
+
+.et_pb_container.clearfix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.et_pb_slide.et_pb_bg_layout_light.et_pb_media_alignment_center.et_pb_slide_2.et-pb-active-slide {
+    display: flex;
+}
+
+.testimonial_header {
+
+	font-family : Open Sans;
+  	font-size : 41px !important;
+	font-weight: 400;
+  	
+}
+
+.et_pb_slide_description {
+    padding: 8% !important;
+}
+
+/*================================ Form ========================*/
+
+#input_1_2, #input_1_3, #input_1_4 {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 2%;
+}
+
+/* ================== sub header =====================*/
+
+.sub_header {
+
+	 font-family : Open Sans;
+ 	 font-size : 38px !important;
+ 	 color : #F9A01B !important ;
+ 	 color : rgb(249, 160, 27) !important;
+	font-weight: 600;
+	padding-left: 10%;
+}
+
+/* ==============sub page title ===================*/
+
+.subpage_little {
+
+	font-family : Open Sans !important;
+  	font-size : 36px !important;
+  	color : #FFFFFF;
+  	color : rgb(255, 255, 255);
+}
+
+.subpage_big {
+
+	font-family : Open Sans !important;
+  	font-size : 45px !important;
+	font-weight: 800 !important;
+  	color : #fff !important;
+  	color : rgb(255, 255, 255);
+
+}
+
+.orange {
+	color: #F9A01B !important;
+}
+
+.blue {
+	color: #1F1F59 !important;
+}
+
+.header_center {
+
+	display: inline-block;
+}
+
+a.et_pb_more_button.et_pb_button {
+    position: absolute;
+    left: 75px;
+}
+
+
+/* =============== consulting ==============================*/
+
+#consulting_services p{
+
+	font-size: 15px;
+}
+
+#consulting_services img.alignnone {
+      max-width: 13%;
+
+}
+
+div#consulting_services {
+	display: flex !important;
+	
+	
+}
+
+/*=====================Portfolio ===========================*/
+
+.portfolio h2 {
+
+	font-family : Open Sans !important;
+  	font-size : 28px !important;
+  	color: #F9A01B;
+  
+}
+
+.subpage_little_portfolio {
+
+	font-family : Open Sans !important;
+  	font-size : 22px !important;
+  	color : #FFFFFF;
+  	color : rgb(255, 255, 255);
+}
+
+.et_pb_row.et_pb_row_2 {
+	width: 100% !important;
+}
+
+
+/* ==========================  Form ====================*/
+
+div#gform_wrapper_2 {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+input#input_2_1_3 {
+    background: rgba(131,133,132,0.4);
+	font-size: 19px;
+	font-weight; 800;
+}
+
+input#input_2_1_6 {
+     background: rgba(131,133,132,0.4);
+	font-size: 19px;
+	font-weight; 800;
+}
+
+input#input_2_2 {
+    background: rgba(131,133,132,0.4);
+	font-size: 19px;
+	font-weight; 800;
+}
+
+textarea#input_2_3 {
+     background: rgba(131,133,132,0.4);
+	font-size: 19px;
+	font-weight; 800;
+}
+
+label.gfield_label {}
+
+label.gfield_label {
+    color: #F9A01B;
+    font-size: 18px;
+}
+
+input#gform_submit_button_2 {
+    background: #F9A01B;
+    padding: 8px 10px;
+    font-size: 24px;
+    font-style: bold;
+    color: white;
+}
+
+input#gform_submit_button_2:hover {
+    background: #F9A01B;
+    padding: 8px 10px;
+    font-size: 24px;
+    font-style: bold;
+    color: black;
+}
+
+
+
+/*================ sub page featured icons ========================*/
+
+#feat_sub_boxes {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
+
+@media screen and (max-width: 1024px) {
+
+	.main-title {
+		font-size: 55px;
+	}
+	.orange_header {
+		font-size: 26px !important;
+	}
+	.orange_subheader {
+		font-size: 20px;
+	}
+	#orange_slider p  {
+		font-size: 18px !important;
+	}
+	#orange_slider .et_pb_container.clearfix {
+		padding-top: 18%;
+	}
+	.flair_feat {
+		font-size: 18px !important;
+	}
+	.flair_orange {
+		font-size: 21px !important;
+	}
+	img.alignnone {
+		max-width: 20%;
+	}
+	.info_paragraph p {
+		font-size: 18px;
+	}
+	.testimonial_header {
+		font-size: 24px;
+	}
+	.orange_subheader {
+		font-size: !important:
+	}
+	.center .gform_wrapper {
+		max-width: 86%;
+		margin: 0 auto;
+	}
+
+}
+
+@media screen and (max-width: 980px) {
+
+	.et_pb_row.et_pb_row_0.et_pb_gutters1 {
+		overflow: visible !important;
+		max-height: 100% !important;
+	}
+	.et_pb_slide_0 {
+		height: 420px;
+	}
+
+	.et_pb_row.et_pb_row_3.et_pb_gutters1  {
+		overflow: visible !important;
+		max-height: 100% !important;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	
+	
+	.et_pb_section.et_pb_section_7.et_pb_with_background.et_section_regular {
+		padding: 0;
+	}
+	.et_pb_section.et_pb_section_9.et_pb_with_background.et_section_regular {
+		padding: 0;
+	}
+	.et_pb_slide.et_pb_bg_layout_light.et_pb_media_alignment_center.et_pb_slide_2.et-pb-active-slide {
+		height: 475px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+
+	.intro_title {
+		font-size: 50px !important;
+	}
+	.et_pb_section.et_pb_section_1.et_section_regular {
+		padding: 0;
+	}
+	#testimonial_slider p {
+		font-size: 15px;
+	}
+
+}
