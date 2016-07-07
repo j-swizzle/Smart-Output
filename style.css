@@ -20,6 +20,10 @@ p {
 	font-weight: 600;
 }
 
+.home-intro-slide {
+	min-height: 400px;
+}
+
 .main_title {
   font-family : Open Sans;
   font-size : 72px;
@@ -32,7 +36,7 @@ p {
 .orange_subheader {
 
 	font-family : Open Sans;
-  	font-size : 36px !important;
+  	font-size : 28px !important;
   	color : #FFFFFF;
   	color : rgb(255, 255, 255);
 }
@@ -40,11 +44,16 @@ p {
 .orange_header {
 
 	font-family : Open Sans;
-  	font-size : 45px !important;
+  	font-size : 32px !important;
 	font-weight: 400;
   	color : #1F1F59 !important;
   	color : rgb(31, 31, 89);
 }
+
+#orange_slider.orange_slider_text p {
+	font-size: 16px;
+}
+
 
 .intro_title {
 	
@@ -162,9 +171,9 @@ div#services {
   	
 }
 
-.et_pb_slide_description {
-    padding: 8% !important;
-}
+/*.et_pb_slide_description {*/
+    /*padding: 8% !important;*/
+/*}*/
 
 /*================================ Form ========================*/
 
@@ -218,10 +227,11 @@ div#services {
 	display: inline-block;
 }
 
-a.et_pb_more_button.et_pb_button {
-    position: absolute;
-    left: 75px;
-}
+/*Disabled to center intro header button*/
+/*a.et_pb_more_button.et_pb_button {*/
+    /*position: absolute;*/
+    /*left: 75px;*/
+/*}*/
 
 
 /* =============== consulting ==============================*/
